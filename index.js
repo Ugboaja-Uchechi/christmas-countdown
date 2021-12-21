@@ -17,3 +17,26 @@ function renderCurrentDay(){
   // - Calculate remaining days.
   // - Display remaining days in countdownDisplay.
 }
+
+renderCurrentDay();
+
+const renderCountdown = () => {
+    let targetDate = new Date("December 25, 2021 00:00:00").getTime();
+    const currentDay = new Date().getTime();
+    const timeDifference = targetDate - currentDay;
+    
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+    
+    const targetDay = Math.floor(timeDifference / day);
+    const targethour = Math.floor((timeDifference % day) / hour);
+    const targetMinute = Math.floor((timeDifference % hour) / minute);
+    const targetSecond = Math.floor((timeDifference % minute) / second);
+    countDown.innerText = targetDay + " Days";
+    countHour.innerText = targethour + " Hours";
+    countMinute.innerText = targetMinute + " Minutes";
+    countSecond.innerText = targetSecond + " Second";
+}
+setInterval(renderCountdown, 1000);
