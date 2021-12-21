@@ -37,3 +37,17 @@ body {
 h1~span {
     color: var(--gold);
 }
+
+.countdown-display {
+  font-size: 40px;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex p {
+  padding: 0 0.3rem;
+}
