@@ -2,6 +2,11 @@
 
 This project idea was gotten from [Scrimba](https://scrimba.com/allcourses) 24 days of JavaScriptmas challenge
 
+## ScreenShot
+
+![image](https://user-images.githubusercontent.com/74814780/146925417-a17ceddd-4881-48a3-ada4-3e39f03378a2.png)
+
+
 
 ## Built With
 
