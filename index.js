@@ -40,3 +40,7 @@ const renderCountdown = () => {
     countSecond.innerText = targetSecond + " Second";
 }
 setInterval(renderCountdown, 1000);
+
+// Stretch goals:
+// - Display hours, minutes, seconds.
+// - Add a countdown for another festival, your birthday, or Christmas 2022.
