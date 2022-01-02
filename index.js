@@ -21,7 +21,7 @@ function renderCurrentDay(){
 renderCurrentDay();
 
 const renderCountdown = () => {
-    let targetDate = new Date("December 25, 2021 00:00:00").getTime();
+    let targetDate = new Date("December 25, 2022 00:00:00").getTime();
     const currentDay = new Date().getTime();
     const timeDifference = targetDate - currentDay;
     
